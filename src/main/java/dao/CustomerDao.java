@@ -1,8 +1,11 @@
 package dao;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by Michael Guo on 2017/8/27.
  */
+@Component
 public class CustomerDao {
 
     @Override
