@@ -14,5 +14,6 @@ public class Spring {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         CustomerService customerService = (CustomerService) applicationContext.getBean("customerService");
         System.out.println(customerService);
+        System.out.println("test revert");
     }
 }
