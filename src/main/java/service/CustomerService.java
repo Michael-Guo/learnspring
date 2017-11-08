@@ -9,8 +9,13 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class CustomerService {
-    @Autowired
+
     private CustomerDao customerDao;
+
+    @Autowired
+    public CustomerService(CustomerDao customerDao) {
+        this.customerDao  = customerDao;
+    }
 
 //    public void setCustomerDao(CustomerDao customerDao) {
 //        this.customerDao = customerDao;

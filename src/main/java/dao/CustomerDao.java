@@ -12,4 +12,8 @@ public class CustomerDao {
     public String toString() {
         return "Hello, this is CustomerDao hahhah";
     }
+
+    public void toSay() {
+        System.out.println("This is customer dao");
+    }
 }
